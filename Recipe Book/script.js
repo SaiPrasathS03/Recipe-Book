@@ -14,6 +14,7 @@ function displayRecipes(meals){
         recipeName.innerHTML =  `
             <img class="" src="${meal.strMealThumb}" alt="">
             <h3>${meal.strMeal}</h3>
+            <a href="${meal.strYoutube}" target="_blank" >Don't know how to do? Click Here!</a>
         `;
         let recipeIng = document.createElement("div");
         recipeIng.className="recipe-ing";
